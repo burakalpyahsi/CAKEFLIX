@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Combatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h1 class="logo">CAKEFLIX</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Anasayfa</li>
+                    <li class="menu-list-item">Filmler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Listem</li>
+                    <li class="menu-list-item">Popüler</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="images/pp3.jpg" alt="pp" />
+                <div class="profile-text-container">
+                    <span class="profile-text">Hesabım</span>
+                    <i class="bi bi-caret-down-square-fill"></i>
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-moon-stars toggle-icon"></i>
+                    <i class="bi bi-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- sidebar start -->
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- content start -->
+    <!--? featured content start -->
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="featured-content">
+                
+                <img class="featured-title" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a58a7719-0dcf-4e0b-b7bb-d2b725dbbb8e/deps254-97662c1a-dc14-4dcb-9361-c3895e686777.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E1OGE3NzE5LTBkY2YtNGUwYi1iN2JiLWQyYjcyNWRiYmI4ZVwvZGVwczI1NC05NzY2MmMxYS1kYzE0LTRkY2ItOTM2MS1jMzg5NWU2ODY3NzcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9PPooa_ajmhv2byRmn4C3sy8Xz9dpDOLKePc6VtRHTw" />
+                <p class="featured-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim qui quas perspiciatis deserunt? Exercitationem quas veritatis odio beatae, voluptates consectetur id obcaecati, pariatur amet aperiam, illum labore nobis. Cupiditate, deleniti provident? Dolorum, est! Eveniet.
+                </p>
+                <div class="featured-button">
+                    <button class="play-button">
+                        <i class="bi bi-play-circle"></i>
+                        oynat
+                    </button>
+                    <button class="info-button">
+                        <i class="bi bi-info-circle"></i>
+                        daha fazla bilgi
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--? featured content end -->
+
+
+        <div class="movie-list-filter">
+            <select>
+                <option>Aksiyon</option>
+                <option>Animasyon</option>
+                <option>Belgesel</option>
+                <option>Komedi</option>
+                <option>Bilim Kurgu</option>
+            </select>
+        </div>
+
+        <!-- movie list start -->
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Popüler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="images/f1.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">SPIDERMAN</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images.wallpapersden.com/image/download/angry-hulk-avengers-assemble_bmdsbWyUmZqaraWkpJRmbmdsrWZlbWU.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">HULK</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images2.alphacoders.com/724/724132.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">JOKER</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="images/f4.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">DAREDEVIL</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="images/f5.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">HOBBIT</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images.wallpapersden.com/image/download/aquaman-superhero-movie-2024_bmZsZmyUmZqaraWkpJRqZmdlrWdtbWU.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">AQUAMAN</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://img2.wallspic.com/previews/3/8/0/3/7/173083/173083-batman-the_batman-catwoman-superhero-dc_comics-550x310.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">BATMAN</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Gündemdekiler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images6.alphacoders.com/136/1363752.jpeg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">DEADPOOL & WOLVERINE</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://preview.redd.it/question-any-places-for-4k-widescreen-movies-wallpapers-v0-vaec689bhjnc1.jpg?width=3840&format=pjpg&auto=webp&s=eae4360698aff41b74210106f02dccf8f3615d35" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">EVIL DEAD RISE</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://wallpapercave.com/wp/wp6409441.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">VENOM</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://wallpaperaccess.com/full/37943.jpg">
+                        <div class="movie-info">
+                            <span class="movie-item-title">IT</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://www.pixel4k.com/wp-content/uploads/2018/09/cars-3-8k-disney-movie_1536401767.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">CARS</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://c4.wallpaperflare.com/wallpaper/133/616/20/inception-movies-wallpaper-preview.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">INCEPTION</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images.wallpapersden.com/image/download/4k-poster-of-dune-2-movie_bmdoaWeUmZqaraWkpJRobWllrWdma2U.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">DUNE 2</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images5.alphacoders.com/125/1257951.jpeg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">OPPENHEIMER</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://wallpapers.com/images/hd/fantastic-beasts-and-where-to-find-them-horizontal-poster-86utad5c6nr65k54.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">FANTASTIC BEASTS</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="images/f3.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">GORA</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images.hdqwalls.com/wallpapers/the-fantastic-four-2025-movie-2b.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">THE FANTASTIC FOUR</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://images5.alphacoders.com/329/329544.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">IRON MAN</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="images/f6.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">AROG</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-list-img" src="https://c4.wallpaperflare.com/wallpaper/478/888/1024/keanu-reeves-john-wick-gun-movies-wallpaper-preview.jpg" alt="">
+                        <div class="movie-info">
+                            <span class="movie-item-title">JOHN WICK</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <!-- movie list end -->
+        <!-- content end -->
+        <script src="index.js"></script>
+</body>
+
+</html>
